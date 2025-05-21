@@ -1,0 +1,74 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.navbar {
+  padding: 10px 20px;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: calc(100vh - 56px);
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.main-content {
+  padding: 20px;
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.requests-container {
+  margin-top: 20px;
+}
+
+.request-card {
+  margin-bottom: 15px;
+}
+
+.alert {
+  margin-bottom: 20px;
+}
+
+.btn-action {
+  margin-right: 5px;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
