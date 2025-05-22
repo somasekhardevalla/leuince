@@ -73,7 +73,7 @@ Client (React) <---> Server (Express) <---> Database (PostgreSQL)
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd user-access-management
+   cd leuince
    ```
 
 2. Navigate to the backend directory:
